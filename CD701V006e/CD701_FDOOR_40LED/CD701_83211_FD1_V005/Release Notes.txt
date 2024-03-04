@@ -1,0 +1,41 @@
+Release Notes
+=============
+Rugby_CL SDK
+Date : January, 2020
+
+III. Revision History
+===================
+The list is not complete and covers only major additions and fixes comparing to the previous release.
+Rugby_CL SDK v1.9.0.0 2020-09-16	
+** Major improvements and bug fixes
+    * [RPSDK-BG-0005] - fixed flash write issue:Flash_devCopyToFlash
+    * [RPSDK-BG-0006] - fixed HardFault_Handler for manufacturing programming issue.
+Rugby_CL SDK v1.5.0.0 2020-06-06
+** Major new features
+    * [RGSDK_NF-0004] - [VERSION] Add LIN Auto Addrssing support
+** Major improvements and bug fixes
+   * none
+Rugby_CL SDK v1.4.0.0 2020-05-26
+** Major improvements and bug fixes
+     * [RGSDK-BG-0003]: fixed Multi-PDU response data length is different from real sent.
+Rugby_CL SDK v1.2.0.0 2020-05-20
+** Major new features
+    * [RGSDK_NF-0003] - [VERSION] Add LIN Bootloader support
+    * [RGSDK_NF-0004] - [VERSION] Change Led compensation table range from [-20,100] to [0, 120]
+** Major improvements and bug fixes
+    * none
+Rugby_CL SDK v1.1.0.0 2020-05-09
+** Major new features
+    * [RGSDK_NF-0002] - [VERSION] Add LIN Slave Stack version control
+** Major improvements and bug fixes
+    * [RGSDK-BG-0003] - fix bug: LIN stack may cause collission  when there is no user frames defined in frame table.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Rugby_CL SDK v1.0.0.0 2020-03-20
+** Major new features
+    * [RGSDK_NF-0001] - [VERSION] Add LIN Slave Stack support
+
+** Major improvements and bug fixes
+    * [RGSDK-BG-0001] - improve white point color calibration steps
+    * [RGSDK-BG-0002] - improve AccurateXYY,AccurateRGBL,AccurateUVL iRatio init value for better understanding of iRatio parameters.
+
+

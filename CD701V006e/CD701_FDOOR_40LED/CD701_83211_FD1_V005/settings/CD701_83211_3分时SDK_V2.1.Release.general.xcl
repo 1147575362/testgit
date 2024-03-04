@@ -1,0 +1,13 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armjlink2.dll" 
+
+"E:\xzh\YZ_Project\CD701\CD701CODE\CD701高配\CD701\CD701_FDOOR_V003\CD701_83211_3分时SDK_V2.1.3_36LED_Master_V003\Release\Exe\CD701.out" 
+
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armbat.dll" 
+
+--flash_loader="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\config\flashloader\IndieSemi\FlashLoader_rugbyPro.board" 
+
+
+
+

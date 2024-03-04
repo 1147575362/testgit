@@ -1,0 +1,1038 @@
+###############################################################################
+#
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  28/Feb/2024  10:12:28
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Exe\meizi_bootloader.out
+#    Map file     =  
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\List\meizi_bootloader.map
+#    Command line =  
+#        -f C:\Users\ÀÚ\AppData\Local\Temp\EWC9BC.tmp
+#        (E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\adc_device.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\applicationTask.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\buck_device.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\clock_device.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\colorCompensationTask.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\usr\library\ColorMixingTask_RugbyProMatrixLeds.a
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\crc32.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\cstartup_M.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\custom_proto.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\flash_device.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\getchar.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\gpio_device.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\hwcfg.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\hwProtection.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\LedParamTables_HVRTB-3433EPX_HongLi_20230515.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\lin_device.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\linMasterTask.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\linslaveTask.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\linslaveTask_J2602.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\linslaveTask_Private.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\linsNodeCfgIdentify.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\linsNodeCfgIdentify_J2602.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\usr\library\LinStackTask_RugbyProMatrixLeds.a
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\low_level_init.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\main.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\measureTask.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\My_DashedLine.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\My_simplerunning.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\pdsTask.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\pmu_device.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\putchar.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\pwm_device.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\pwmAux_device.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\safetyMonitorTask.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\usr\library\SoftTimerTask_RugbyProMatrixLeds.a
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\spi_device.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\systemInit.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\systick_device.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\taskManager.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\timer_device.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\uart_device.o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj\wdt_device.o
+#        --no_out_extension -o
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Exe\meizi_bootloader.out
+#        --map
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\List\meizi_bootloader.map
+#        --config
+#        E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\rugbyPro_app_with_bootloader.icf
+#        --entry __iar_program_start --inline --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x1c08 { ro section .intvec };
+"P1":  place in [from 0x1c08 to 0xfbff] { ro };
+define block CSTACK with size = 2K, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x2000'0040 to 0x2000'3fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xc4
+  .intvec            const         0x1c08    0xc4  cstartup_M.o [1]
+                                 - 0x1ccc    0xc4
+
+"P1":                                      0xcacb
+  .text              ro code       0x1ccc  0x189c  colorFormula.o [2]
+  .text              ro code       0x3568    0x1e  U64Shr.o [7]
+  .text              ro code       0x3586    0x7e  lz77_init_single.o [7]
+  .text              ro code       0x3604    0x32  I64Mul.o [7]
+  .text              ro code       0x3638   0x5c4  LedParamTables_HVRTB-3433EPX_HongLi_20230515.o [1]
+  .text              ro code       0x3bfc    0xe0  I32DivModFast.o [7]
+  .text              ro code       0x3cdc   0x23c  pdsTask.o [1]
+  .text              ro code       0x3f18    0x5c  ABImemcpy.o [7]
+  .text              ro code       0x3f74    0xa8  I64DivMod.o [7]
+  .text              ro code       0x401c    0x64  crc32.o [1]
+  .text              ro code       0x4080   0x4a0  linslaveTask.o [1]
+  .text              ro code       0x4520   0xb68  LinStackTask.o [3]
+  .text              ro code       0x5088   0x440  linsNodeCfgIdentify.o [1]
+  .text              ro code       0x54c8  0x1008  ColorMixingTask.o [2]
+  .text              ro code       0x64d0    0x70  flash_device.o [1]
+  .text              ro code       0x6540    0x64  taskManager.o [1]
+  .text              ro code       0x65a4  0x1590  applicationTask.o [1]
+  .text              ro code       0x7b34    0x16  uread4.o [7]
+  .text              ro code       0x7b4c    0xd8  custom_proto.o [1]
+  .text              ro code       0x7c24    0xdc  timer_device.o [1]
+  .text              ro code       0x7d00   0x11c  softTimerTask.o [4]
+  .text              ro code       0x7e1c   0x840  measureTask.o [1]
+  .text              ro code       0x865c   0x1b0  safetyMonitorTask.o [1]
+  .text              ro code       0x880c    0x56  ABImemset.o [7]
+  .text              ro code       0x8864   0x2a8  lin_device.o [1]
+  .text              ro code       0x8b0c   0x148  pmu_device.o [1]
+  .text              ro code       0x8c54    0x80  clock_device.o [1]
+  .text              ro code       0x8cd4    0x14  uwrite4.o [7]
+  .text              ro code       0x8ce8   0x47c  pwm_device.o [1]
+  .text              ro code       0x9164   0x120  FltAddSub.o [6]
+  .text              ro code       0x9284    0xb0  FltMul.o [6]
+  .text              ro code       0x9334    0x3a  FltToS32.o [6]
+  .text              ro code       0x9370   0x10c  rand.o [5]
+  .text              ro code       0x947c    0x2a  uread8.o [7]
+  .text              ro code       0x94a8  0x13ec  linMasterTask.o [1]
+  .text              ro code       0xa894    0xbc  adc_device.o [1]
+  .text              ro code       0xa950    0xa0  gpio_device.o [1]
+  .text              ro code       0xa9f0   0x110  hwProtection.o [1]
+  .text              ro code       0xab00   0x1d4  buck_device.o [1]
+  .text              ro code       0xacd4    0x80  hwcfg.o [1]
+  .text              ro code       0xad54   0x654  My_simplerunning.o [1]
+  .text              ro code       0xb3a8  0x1344  My_DashedLine.o [1]
+  .text              ro code       0xc6ec    0x20  IxxToDbl.o [6]
+  .text              ro code       0xc70c    0xc2  DblDiv.o [6]
+  .text              ro code       0xc7d0    0x54  DblToI64.o [6]
+  .text              ro code       0xc824    0x26  FltCmpLe.o [6]
+  .text              ro code       0xc84c    0x32  FltToDbl.o [6]
+  .text              ro code       0xc87e   0x1a8  DblAddSub.o [6]
+  .text              ro code       0xca26   0x184  DblMul.o [6]
+  .text              ro code       0xcbac    0x2e  DblToI32.o [6]
+  .text              ro code       0xcbdc    0x36  IxxToFlt.o [6]
+  .text              ro code       0xcc12    0xaa  FltDiv.o [6]
+  .text              ro code       0xccbc    0x58  ceil.o [6]
+  .text              ro code       0xcd14    0x62  DblToFlt.o [6]
+  .rodata            const         0xcd78  0x1414  applicationTask.o [1]
+  .text              ro code       0xe18c   0x1ec  colorCompensationTask.o [1]
+  .text              ro code       0xe378    0xe8  systemInit.o [1]
+  .text              ro code       0xe460    0x38  systick_device.o [1]
+  .text              ro code       0xe498    0x68  low_level_init.o [1]
+  .text              ro code       0xe500    0x58  uart_device.o [1]
+  .text              ro code       0xe558    0x3c  zero_init3.o [7]
+  .text              ro code       0xe594    0x38  pwmAux_device.o [1]
+  .text              ro code       0xe5cc    0x28  data_init.o [7]
+  .iar.init_table    const         0xe5f4    0x20  - Linker created -
+  .text              ro code       0xe614    0x1e  cmain.o [7]
+  .text              ro code       0xe632    0x10  main.o [1]
+  .text              ro code       0xe642     0x8  exit.o [5]
+  .text              ro code       0xe64c     0xa  cexit.o [7]
+  .text              ro code       0xe658     0xc  XXexit.o [7]
+  .text              ro code       0xe664    0x18  wdt_device.o [1]
+  .text              ro code       0xe67c    0x10  cstartup_M.o [1]
+  .rodata            const         0xe68c     0x8  colorFormula.o [2]
+  .text              ro code       0xe694     0x2  spi_device.o [1]
+  .rodata            const         0xe696     0x0  zero_init3.o [7]
+  .rodata            const         0xe696     0x0  lz77_init_single.o [7]
+  Initializer bytes  const         0xe696   0x101  <for P2-1>
+                                 - 0xe797  0xcacb
+
+"P2", part 1 of 3:                          0x46b
+  P2-1                        0x2000'0040   0x46b  <Init block>
+    .data            inited   0x2000'0040    0x4c  linMasterTask.o [1]
+    .data            inited   0x2000'008c    0x58  applicationTask.o [1]
+    .data            inited   0x2000'00e4   0x154  applicationTask.o [1]
+    .data            inited   0x2000'0238     0x4  clock_device.o [1]
+    .data            inited   0x2000'023c    0x48  linMasterTask.o [1]
+    .data            inited   0x2000'0284    0x1c  linMasterTask.o [1]
+    .data            inited   0x2000'02a0    0x28  linslaveTask.o [1]
+    .data            inited   0x2000'02c8    0x24  linslaveTask.o [1]
+    .data            inited   0x2000'02ec    0x50  linslaveTask.o [1]
+    .data            inited   0x2000'033c    0x1c  measureTask.o [1]
+    .data            inited   0x2000'0358    0x10  measureTask.o [1]
+    .data            inited   0x2000'0368    0x28  pwm_device.o [1]
+    .data            inited   0x2000'0390    0x1c  systemInit.o [1]
+    .data            inited   0x2000'03ac    0x2c  taskManager.o [1]
+    .data            inited   0x2000'03d8    0x20  timer_device.o [1]
+    .data            inited   0x2000'03f8    0x11  LinStackTask.o [3]
+    .data            inited   0x2000'040c    0x58  LinStackTask.o [3]
+    .data            inited   0x2000'0464    0x1b  LinStackTask.o [3]
+    .data            inited   0x2000'0480    0x20  LinStackTask.o [3]
+    .data            inited   0x2000'04a0     0x8  rand.o [5]
+    .data            inited   0x2000'04a8     0x2  ColorMixingTask.o [2]
+    .data            inited   0x2000'04aa     0x1  colorCompensationTask.o [1]
+                            - 0x2000'04ab   0x46b
+
+"P2", part 2 of 3:                         0x2560
+  .bss               zero     0x2000'04ac   0xfd8  measureTask.o [1]
+  .bss               zero     0x2000'1484   0x6c0  ColorMixingTask.o [2]
+  .bss               zero     0x2000'1b44   0x400  crc32.o [1]
+  .bss               zero     0x2000'1f44   0x2b4  pdsTask.o [1]
+  .bss               zero     0x2000'21f8   0x240  ColorMixingTask.o [2]
+  .bss               zero     0x2000'2438   0x1b0  colorFormula.o [2]
+  .bss               zero     0x2000'25e8   0x100  linslaveTask.o [1]
+  .bss               zero     0x2000'26e8    0x90  pwm_device.o [1]
+  .bss               zero     0x2000'2778    0x90  pwm_device.o [1]
+  .bss               zero     0x2000'2808    0x84  uart_device.o [1]
+  .bss               zero     0x2000'288c    0x84  rand.o [5]
+  .bss               zero     0x2000'2910    0x24  gpio_device.o [1]
+  .bss               zero     0x2000'2934    0x20  measureTask.o [1]
+  .bss               zero     0x2000'2954    0x20  safetyMonitorTask.o [1]
+  .bss               zero     0x2000'2974    0x18  My_DashedLine.o [1]
+  .bss               zero     0x2000'298c    0x14  lin_device.o [1]
+  .bss               zero     0x2000'29a0     0xc  linsNodeCfgIdentify.o [1]
+  .bss               zero     0x2000'29ac     0xc  softTimerTask.o [4]
+  .bss               zero     0x2000'29b8     0xc  LinStackTask.o [3]
+  .bss               zero     0x2000'29c4     0x8  hwProtection.o [1]
+  .bss               zero     0x2000'29cc     0x8  lin_device.o [1]
+  .bss               zero     0x2000'29d4     0x8  linslaveTask.o [1]
+  .bss               zero     0x2000'29dc     0x8  pwmAux_device.o [1]
+  .bss               zero     0x2000'29e4     0x8  uart_device.o [1]
+  .bss               zero     0x2000'29ec     0x8  colorFormula.o [2]
+  .bss               zero     0x2000'29f4     0x4  buck_device.o [1]
+  .bss               zero     0x2000'29f8     0x4  hwProtection.o [1]
+  .bss               zero     0x2000'29fc     0x4  systick_device.o [1]
+  .bss               zero     0x2000'2a00     0x4  wdt_device.o [1]
+  .bss               zero     0x2000'2a04     0x1  colorCompensationTask.o [1]
+  .bss               zero     0x2000'2a05     0x1  linslaveTask.o [1]
+  .bss               zero     0x2000'2a06     0x1  linslaveTask.o [1]
+  .bss               zero     0x2000'2a07     0x1  measureTask.o [1]
+  .bss               zero     0x2000'2a08     0x1  pdsTask.o [1]
+  .bss               zero     0x2000'2a09     0x1  pdsTask.o [1]
+  .bss               zero     0x2000'2a0a     0x1  ColorMixingTask.o [2]
+  .bss               zero     0x2000'2a0b     0x1  ColorMixingTask.o [2]
+                            - 0x2000'2a0c  0x2560
+
+"P2", part 3 of 3:                          0x800
+  CSTACK                      0x2000'2a10   0x800  <Block>
+    CSTACK           uninit   0x2000'2a10   0x800  <Block tail>
+                            - 0x2000'3210   0x800
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+       0xe797       0xfbff  0x1469
+  0x2000'04ab  0x2000'04ab     0x1
+  0x2000'2a0c  0x2000'2a0f     0x4
+  0x2000'3210  0x2000'3fff   0xdf0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x2560:
+          0x2000'04ac  0x2560
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x101 (22% of destination):
+               0xe696   0x101
+    1 destination range, total size 0x46b:
+          0x2000'0040   0x46b
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                                          ro code  ro data  rw data
+    ------                                          -------  -------  -------
+command line/config:
+    -------------------------------------------------------------------------
+    Total:
+
+E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj: [1]
+    LedParamTables_HVRTB-3433EPX_HongLi_20230515.o    1 476
+    My_DashedLine.o                                   4 932                24
+    My_simplerunning.o                                1 620
+    adc_device.o                                        188
+    applicationTask.o                                 5 520    5 237      428
+    buck_device.o                                       468                 4
+    clock_device.o                                      128        1        4
+    colorCompensationTask.o                             492        1        2
+    crc32.o                                             100             1 024
+    cstartup_M.o                                         16      196
+    custom_proto.o                                      216
+    flash_device.o                                      112
+    gpio_device.o                                       160                36
+    hwProtection.o                                      272                12
+    hwcfg.o                                             128
+    linMasterTask.o                                   5 100       40      176
+    lin_device.o                                        680                28
+    linsNodeCfgIdentify.o                             1 088                12
+    linslaveTask.o                                    1 184       35      422
+    low_level_init.o                                    104
+    main.o                                               16
+    measureTask.o                                     2 112       10    4 133
+    pdsTask.o                                           572               694
+    pmu_device.o                                        328
+    pwmAux_device.o                                      56                 8
+    pwm_device.o                                      1 148        9      328
+    safetyMonitorTask.o                                 432                32
+    spi_device.o                                          2
+    systemInit.o                                        232        7       28
+    systick_device.o                                     56                 4
+    taskManager.o                                       100       10       44
+    timer_device.o                                      220        7       32
+    uart_device.o                                        88               140
+    wdt_device.o                                         24                 4
+    -------------------------------------------------------------------------
+    Total:                                           29 370    5 553    7 619
+
+ColorMixingTask_RugbyProMatrixLeds.a: [2]
+    ColorMixingTask.o                                 4 104             2 308
+    colorFormula.o                                    6 300        8      440
+    -------------------------------------------------------------------------
+    Total:                                           10 404        8    2 748
+
+LinStackTask_RugbyProMatrixLeds.a: [3]
+    LinStackTask.o                                    2 920       38      176
+    -------------------------------------------------------------------------
+    Total:                                            2 920       38      176
+
+SoftTimerTask_RugbyProMatrixLeds.a: [4]
+    softTimerTask.o                                     284                12
+    -------------------------------------------------------------------------
+    Total:                                              284                12
+
+dl6M_tln.a: [5]
+    exit.o                                                8
+    rand.o                                              268        2      140
+    -------------------------------------------------------------------------
+    Total:                                              276        2      140
+
+m6M_tl.a: [6]
+    DblAddSub.o                                         424
+    DblDiv.o                                            194
+    DblMul.o                                            388
+    DblToFlt.o                                           98
+    DblToI32.o                                           46
+    DblToI64.o                                           84
+    FltAddSub.o                                         288
+    FltCmpLe.o                                           38
+    FltDiv.o                                            170
+    FltMul.o                                            176
+    FltToDbl.o                                           50
+    FltToS32.o                                           58
+    IxxToDbl.o                                           32
+    IxxToFlt.o                                           54
+    ceil.o                                               88
+    -------------------------------------------------------------------------
+    Total:                                            2 188
+
+rt6M_tl.a: [7]
+    ABImemcpy.o                                          92
+    ABImemset.o                                          86
+    I32DivModFast.o                                     224
+    I64DivMod.o                                         168
+    I64Mul.o                                             50
+    U64Shr.o                                             30
+    XXexit.o                                             12
+    cexit.o                                              10
+    cmain.o                                              30
+    data_init.o                                          40
+    lz77_init_single.o                                  126
+    uread4.o                                             22
+    uread8.o                                             42
+    uwrite4.o                                            20
+    zero_init3.o                                         60
+    -------------------------------------------------------------------------
+    Total:                                            1 012
+
+    Gaps                                                 22        2        4
+    Linker created                                                32    2 048
+-----------------------------------------------------------------------------
+    Grand Total:                                     46 476    5 635   12 747
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base        0xe5f4          --   Gb  - Linker created -
+.iar.init_table$$Limit       0xe614          --   Gb  - Linker created -
+?main                        0xe615         Code  Gb  cmain.o [7]
+ADC_GeneralInit              0xa895   0x68  Code  Gb  adc_device.o [1]
+ADC_GetLedPNCode             0x90af   0x22  Code  Gb  pwm_device.o [1]
+ADC_GetVBattCode             0x90d7    0x6  Code  Gb  pwm_device.o [1]
+ADC_GetVBuckCode             0x90d1    0x6  Code  Gb  pwm_device.o [1]
+ADC_GetVTempCode             0x90dd    0x6  Code  Gb  pwm_device.o [1]
+ADC_Handler                  0x8ce9  0x236  Code  Gb  pwm_device.o [1]
+ADC_Handler::ledChannel
+                        0x2000'0369    0x1  Data  Lc  pwm_device.o [1]
+ADC_Handler::ledConvertCount
+                        0x2000'038a    0x2  Data  Lc  pwm_device.o [1]
+ADC_Handler::ledNo      0x2000'036a    0x1  Data  Lc  pwm_device.o [1]
+ADC_RegisterIRQ              0xa8fd   0x1c  Code  Gb  adc_device.o [1]
+ADC_UnregisterIRQ            0xa919   0x24  Code  Gb  adc_device.o [1]
+ALU_DATA                0x2000'026c    0x4  Data  Gb  linMasterTask.o [1]
+ALU_ModeCount           0x2000'024f    0x1  Data  Gb  linMasterTask.o [1]
+APPL_DataHandle              0x6c29  0x9e8  Code  Gb  applicationTask.o [1]
+APPL_HandleBcmControlCommands
+                             0x6b39   0xb6  Code  Gb  applicationTask.o [1]
+APPL_HandleBcmControlCommands::old_crc1
+                        0x2000'00a8    0x4  Data  Lc  applicationTask.o [1]
+APPL_HandleBcmControlCommands::old_crc2
+                        0x2000'00ac    0x4  Data  Lc  applicationTask.o [1]
+APPL_HandleBcmControlCommands::old_crc3
+                        0x2000'00b0    0x4  Data  Lc  applicationTask.o [1]
+APPL_HandleBcmControlCommands::receive_num
+                        0x2000'0094    0x1  Data  Lc  applicationTask.o [1]
+APPL_HandleColorControlCommands
+                             0x761d  0x158  Code  Gb  applicationTask.o [1]
+APPL_HandleLedParamConfigRequest
+                             0x7779  0x12a  Code  Gb  applicationTask.o [1]
+APPL_PrepareLedParamRequest
+                             0x78a3  0x292  Code  Gb  applicationTask.o [1]
+APPL_RegisterDataProtocol
+                             0x94a9    0xc  Code  Gb  linMasterTask.o [1]
+APPL_TaskHandler             0x6a81   0xae  Code  Gb  applicationTask.o [1]
+APPL_dataProtocol_callback
+                        0x2000'0270    0x4  Data  Gb  linMasterTask.o [1]
+ApplTimer               0x2000'0220   0x18  Data  Lc  applicationTask.o [1]
+ApplTimerExpired             0x6625  0x45a  Code  Gb  applicationTask.o [1]
+ApplTimerExpired::index
+                        0x2000'0092    0x1  Data  Lc  applicationTask.o [1]
+ApplTimerExpired::ledIndexnum
+                        0x2000'00a4    0x4  Data  Lc  applicationTask.o [1]
+ApplTimerExpired::ledno
+                        0x2000'0093    0x1  Data  Lc  applicationTask.o [1]
+BCM_FrameNum_1          0x2000'0098    0x4  Data  Gb  applicationTask.o [1]
+BCM_FrameNum_1_Arr      0x2000'00b4    0x8  Data  Gb  applicationTask.o [1]
+BCM_FrameNum_2          0x2000'009c    0x4  Data  Gb  applicationTask.o [1]
+BCM_FrameNum_2_Arr      0x2000'00bc    0x8  Data  Gb  applicationTask.o [1]
+BCM_FrameNum_3          0x2000'00a0    0x4  Data  Gb  applicationTask.o [1]
+BCM_FrameNum_3_Arr      0x2000'00c4    0x8  Data  Gb  applicationTask.o [1]
+BOR_Handler                  0x8b0d    0x2  Code  Gb  pmu_device.o [1]
+BTE_Handler                  0x8c45    0x8  Code  Gb  pmu_device.o [1]
+BUCK_DisableBuck             0xac33    0xc  Code  Gb  buck_device.o [1]
+BUCK_Handler                 0xac1d   0x16  Code  Gb  buck_device.o [1]
+BUCK_Init                    0xab01  0x11c  Code  Gb  buck_device.o [1]
+BcmControlCommandsDataHandle
+                             0x9f7f  0x326  Code  Gb  linMasterTask.o [1]
+Brightness              0x2000'0096    0x2  Data  Lc  applicationTask.o [1]
+BusWakeUpRequestHandle       0x429b   0x16  Code  Gb  linslaveTask.o [1]
+CCP_TaskHandler              0xe18d   0x1c  Code  Gb  colorCompensationTask.o [1]
+CFL_CalculatingWhitePoint
+                             0x2151  0x13e  Code  Gb  colorFormula.o [2]
+CFL_GetLedPNVolts            0x20eb   0x62  Code  Gb  colorFormula.o [2]
+CFL_GetLedPhyParams          0x1f8d   0xae  Code  Gb  colorFormula.o [2]
+CFL_GetMinimumIntensity
+                             0x2053   0x1e  Code  Gb  colorFormula.o [2]
+CFL_GetRunTimePhyMaxIntensity
+                             0x2805   0x10  Code  Gb  colorFormula.o [2]
+CFL_GetWhitePointParams
+                             0x2081    0x6  Code  Gb  colorFormula.o [2]
+CFL_HSLToDutyCycle           0x3411   0xec  Code  Gb  colorFormula.o [2]
+CFL_LuvToDutyCycle           0x2f17   0xa2  Code  Gb  colorFormula.o [2]
+CFL_RGBLToDutyCycle          0x2fb9  0x2d0  Code  Gb  colorFormula.o [2]
+CFL_RGBToDutyCycle           0x34fd   0x40  Code  Gb  colorFormula.o [2]
+CFL_RestoreColorParams       0x228f   0x12  Code  Gb  colorFormula.o [2]
+CFL_SetLedPNVolts            0x2087   0x64  Code  Gb  colorFormula.o [2]
+CFL_SetLedPhyParams          0x1e85  0x108  Code  Gb  colorFormula.o [2]
+CFL_SetMinimumIntensity
+                             0x203b   0x18  Code  Gb  colorFormula.o [2]
+CFL_SetWhitePointParams
+                             0x2071   0x10  Code  Gb  colorFormula.o [2]
+CFL_XYYToDutyCycle           0x28b1  0x666  Code  Gb  colorFormula.o [2]
+CFL_sRGBLToDutyCycle         0x3291  0x17e  Code  Gb  colorFormula.o [2]
+CLM_GetColorLibraryVersion
+                             0x54c9    0x6  Code  Gb  ColorMixingTask.o [2]
+CLM_GetCurrentColorParams
+                             0x640d   0x1a  Code  Gb  ColorMixingTask.o [2]
+CLM_GetLedPNVolts            0x64b1   0x18  Code  Gb  ColorMixingTask.o [2]
+CLM_GetLedPhyParams          0x6445   0x14  Code  Gb  ColorMixingTask.o [2]
+CLM_GetMinimumIntensity
+                             0x6465    0xc  Code  Gb  ColorMixingTask.o [2]
+CLM_GetWhitePointParams
+                             0x647d   0x18  Code  Gb  ColorMixingTask.o [2]
+CLM_Init                     0x5761   0x3a  Code  Gb  ColorMixingTask.o [2]
+CLM_SetAccurateLUV           0x59d5   0xfc  Code  Gb  ColorMixingTask.o [2]
+CLM_SetAccurateRGBL          0x5ad9  0x108  Code  Gb  ColorMixingTask.o [2]
+CLM_SetAccurateSRGBL         0x5bed  0x108  Code  Gb  ColorMixingTask.o [2]
+CLM_SetAccurateXYY           0x58c9   0xfc  Code  Gb  ColorMixingTask.o [2]
+CLM_SetFadingMode            0x54d5    0x6  Code  Gb  ColorMixingTask.o [2]
+CLM_SetHSL                   0x6149  0x100  Code  Gb  ColorMixingTask.o [2]
+CLM_SetLUV                   0x5e05  0x102  Code  Gb  ColorMixingTask.o [2]
+CLM_SetLedPNVolts            0x6495   0x1c  Code  Gb  ColorMixingTask.o [2]
+CLM_SetLedPhyParams          0x6431   0x14  Code  Gb  ColorMixingTask.o [2]
+CLM_SetLimitedMaxIntensity
+                             0x58b9   0x10  Code  Gb  ColorMixingTask.o [2]
+CLM_SetMinimumIntensity
+                             0x6459    0xc  Code  Gb  ColorMixingTask.o [2]
+CLM_SetPWMs                  0x634f   0xb8  Code  Gb  ColorMixingTask.o [2]
+CLM_SetRGB                   0x624d  0x102  Code  Gb  ColorMixingTask.o [2]
+CLM_SetRGBL                  0x5f19  0x10e  Code  Gb  ColorMixingTask.o [2]
+CLM_SetSRGBL                 0x6031  0x10e  Code  Gb  ColorMixingTask.o [2]
+CLM_SetWhitePointParams
+                             0x6471    0xc  Code  Gb  ColorMixingTask.o [2]
+CLM_SetXYY                   0x5cf9  0x102  Code  Gb  ColorMixingTask.o [2]
+CLM_TaskHandler              0x57b3   0x42  Code  Gb  ColorMixingTask.o [2]
+CLM_TaskHandler::cmState
+                        0x2000'2a0b    0x1  Data  Lc  ColorMixingTask.o [2]
+CRC32_GetRunTimeCRC32        0x404f   0x2a  Code  Gb  crc32.o [1]
+CRC32_Init                   0x401d   0x32  Code  Gb  crc32.o [1]
+CRC32_Table             0x2000'1b44  0x400  Data  Lc  crc32.o [1]
+CSTACK$$Base            0x2000'2a10          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'3210          --   Gb  - Linker created -
+CheckParamFlag          0x2000'0091    0x1  Data  Gb  applicationTask.o [1]
+Clock_GetSystemClock         0x8cc3    0x6  Code  Gb  clock_device.o [1]
+Clock_SystemMainClockInit
+                             0x8c55   0x6e  Code  Gb  clock_device.o [1]
+CurrentRunTime          0x2000'0262    0x2  Data  Gb  linMasterTask.o [1]
+DashedLineMovement_side
+                             0xba01  0x550  Code  Gb  My_DashedLine.o [1]
+DashedLineSwimming_side
+                             0xb3a9  0x550  Code  Gb  My_DashedLine.o [1]
+DashedStep_lightup           0xc48b  0x1d8  Code  Gb  My_DashedLine.o [1]
+DashedStep_side              0xc02d  0x3f8  Code  Gb  My_DashedLine.o [1]
+DiagChangCmd                 0x4413   0x56  Code  Gb  linslaveTask.o [1]
+DiagnosticSleepRequestHandle
+                             0x427d   0x1e  Code  Gb  linslaveTask.o [1]
+DiagnosticSubscribedCmdsHandle
+                             0x4089  0x1ea  Code  Gb  linslaveTask.o [1]
+DnnBroadcastNad         0x2000'041c    0x2  Data  Lc  LinStackTask.o [3]
+Flash_EraseSector            0x64d1   0x24  Code  Gb  flash_device.o [1]
+Flash_WriteWord              0x64f5   0x32  Code  Gb  flash_device.o [1]
+FlowingLamp                  0xb001  0x3a8  Code  Gb  My_simplerunning.o [1]
+GPIO_Handler                 0xa951   0x2c  Code  Gb  gpio_device.o [1]
+GPIO_Init                    0xa97d   0x42  Code  Gb  gpio_device.o [1]
+GPIO_Set                     0xa9bf   0x18  Code  Gb  gpio_device.o [1]
+GPIO_SetGPIOs                0xa9d7    0x6  Code  Gb  gpio_device.o [1]
+GetNAD                       0x3e7b    0x6  Code  Gb  pdsTask.o [1]
+Getlight_max_lv              0x3e81    0x6  Code  Gb  pdsTask.o [1]
+HWCFG_GetLEDTrimValue        0xad05   0x20  Code  Gb  hwcfg.o [1]
+HWCFG_GetMajorVBGCode        0xaced    0xc  Code  Gb  hwcfg.o [1]
+HWCFG_GetOffLEDTrimValue
+                             0xad25    0xc  Code  Gb  hwcfg.o [1]
+HWCFG_GetRCHFClockCalibValue
+                             0xacd5    0xc  Code  Gb  hwcfg.o [1]
+HWCFG_GetRCLFClockCalibValue
+                             0xace1    0xc  Code  Gb  hwcfg.o [1]
+HWCFG_GetV2ITrimValue        0xacf9    0xc  Code  Gb  hwcfg.o [1]
+HWCFG_TrimAccessUnlock       0xad31    0x8  Code  Gb  hwcfg.o [1]
+HW_PROT_GetBattVoltState
+                             0xaad3    0xa  Code  Gb  hwProtection.o [1]
+HW_PROT_RegisterOverVoltageIRQ
+                             0xaa85    0xa  Code  Gb  hwProtection.o [1]
+HW_PROT_RegisterUnderVoltageIRQ
+                             0xaab7    0x8  Code  Gb  hwProtection.o [1]
+HW_PROT_SetOverVoltage       0xaa5d   0x28  Code  Gb  hwProtection.o [1]
+HW_PROT_SetUnderVoltage
+                             0xaa8f   0x28  Code  Gb  hwProtection.o [1]
+HardFault_Handler            0x8c2d    0x8  Code  Gb  pmu_device.o [1]
+LINM_DataProtocol            0xa5ad   0x8a  Code  Gb  linMasterTask.o [1]
+LINM_DataProtocol::old_crc0
+                        0x2000'0278    0x4  Data  Lc  linMasterTask.o [1]
+LINM_DataProtocol::old_crc1
+                        0x2000'027c    0x4  Data  Lc  linMasterTask.o [1]
+LINM_DataProtocol::old_crc2
+                        0x2000'0280    0x4  Data  Lc  linMasterTask.o [1]
+LINM_Handler                 0x8a65   0x3a  Code  Gb  lin_device.o [1]
+LINM_Init                    0x897b   0x74  Code  Gb  lin_device.o [1]
+LINM_ReadBuffer              0x894f   0x2a  Code  Gb  lin_device.o [1]
+LINM_SendFrame               0x89ef   0x76  Code  Gb  lin_device.o [1]
+LINM_TaskHandler             0xa815   0x42  Code  Gb  linMasterTask.o [1]
+LINS_AutoAddressingSwitch
+                             0x892d   0x12  Code  Gb  lin_device.o [1]
+LINS_GetPIDFromFID           0x4391   0x2a  Code  Gb  linslaveTask.o [1]
+LINS_GetUcndFramesTable
+                             0x4081    0x8  Code  Gb  linslaveTask.o [1]
+LINS_HandleBcmControlCommands
+                             0x43cd   0x18  Code  Gb  linslaveTask.o [1]
+LINS_Handler                 0x893f   0x10  Code  Gb  lin_device.o [1]
+LINS_Init                    0x8865   0xb4  Code  Gb  lin_device.o [1]
+LINS_RegisterLINStack_IRQ
+                             0x8919   0x10  Code  Gb  lin_device.o [1]
+LINS_SetSlaveModuleToSleep
+                             0x8929    0x4  Code  Gb  lin_device.o [1]
+LINS_TaskHandler             0x44a5   0x56  Code  Gb  linslaveTask.o [1]
+LNCI_HandleNodeCfgIdentifyRequest
+                             0x50c5  0x3ea  Code  Gb  linsNodeCfgIdentify.o [1]
+LNCI_Init                    0x5089   0x36  Code  Gb  linsNodeCfgIdentify.o [1]
+LP_GetTempTableBlue          0x3641    0x4  Code  Gb  LedParamTables_HVRTB-3433EPX_HongLi_20230515.o [1]
+LP_GetTempTableGreen         0x363d    0x4  Code  Gb  LedParamTables_HVRTB-3433EPX_HongLi_20230515.o [1]
+LP_GetTempTableRed           0x3639    0x4  Code  Gb  LedParamTables_HVRTB-3433EPX_HongLi_20230515.o [1]
+LedData_40              0x2000'2984    0x8  Data  Gb  My_DashedLine.o [1]
+LedFlag                 0x2000'021c    0x4  Data  Gb  applicationTask.o [1]
+LedIndexTemp            0x2000'0210    0x1  Data  Gb  applicationTask.o [1]
+LedOnPorcess                 0x65a5   0x66  Code  Gb  applicationTask.o [1]
+LedParam                0x2000'29f0    0x4  Data  Lc  colorFormula.o [2]
+LedParamTemp            0x2000'00e4  0x12c  Data  Gb  applicationTask.o [1]
+LedPowerSwitch          0x2000'038c    0x4  Data  Lc  pwm_device.o [1]
+LedRunTimeParam         0x2000'2438  0x1b0  Data  Lc  colorFormula.o [2]
+LinStack_TaskHandler         0x47f1   0xba  Code  Gb  LinStackTask.o [3]
+Lullaby_Handler              0x8bc7   0x16  Code  Gb  pmu_device.o [1]
+MES_DataIntegrityError       0x842d    0x6  Code  Gb  measureTask.o [1]
+MES_GetBatteryVolt           0x8433   0x1c  Code  Gb  measureTask.o [1]
+MES_GetBuckVolt              0x844f   0x1e  Code  Gb  measureTask.o [1]
+MES_GetChipTemperature       0x8471   0x1c  Code  Gb  measureTask.o [1]
+MES_GetLedRGBTemperature
+                             0x84b5   0x22  Code  Gb  measureTask.o [1]
+MES_GetLedTemperature        0x848d   0x28  Code  Gb  measureTask.o [1]
+MES_GetRunTimeLedPNVolt
+                             0x84dd   0x1e  Code  Gb  measureTask.o [1]
+MES_MnftGetLedInfo           0x8519  0x124  Code  Gb  measureTask.o [1]
+MES_TaskHandler              0x8275   0x46  Code  Gb  measureTask.o [1]
+Mode4IneffectiveFlag    0x2000'0259    0x1  Data  Gb  linMasterTask.o [1]
+NMI_Handler                  0x8c25    0x8  Code  Gb  pmu_device.o [1]
+N_As_Count              0x2000'045c    0x4  Data  Lc  LinStackTask.o [3]
+N_Cr_Count              0x2000'0460    0x4  Data  Lc  LinStackTask.o [3]
+OVTEMP_Handler               0xa9f1   0x26  Code  Gb  hwProtection.o [1]
+OverVoltageProtection_ISR
+                             0x87cf    0xa  Code  Lc  safetyMonitorTask.o [1]
+OverflowFlag            0x2000'0258    0x1  Data  Gb  linMasterTask.o [1]
+PDS_GetLINParam              0x3e71    0x4  Code  Gb  pdsTask.o [1]
+PDS_GetLedParam              0x3e6d    0x4  Code  Gb  pdsTask.o [1]
+PDS_GetPdsStatus             0x3e75    0x6  Code  Gb  pdsTask.o [1]
+PDS_Init                     0x3cdd  0x112  Code  Gb  pdsTask.o [1]
+PDS_TaskHandler              0x3e95   0x32  Code  Gb  pdsTask.o [1]
+PMU_BORInit                  0x8b0f   0x3c  Code  Gb  pmu_device.o [1]
+PMU_EnterDeepSleepMode       0x8b6d   0x5a  Code  Gb  pmu_device.o [1]
+PMU_WakeTimerInit            0x8b4b   0x22  Code  Gb  pmu_device.o [1]
+PWMAUX_Handler               0xe595   0x2e  Code  Gb  pwmAux_device.o [1]
+PWM_Handler                  0x8f1f    0x2  Code  Gb  pwm_device.o [1]
+PWM_Init                     0x8fb5   0x94  Code  Gb  pwm_device.o [1]
+PWM_LedIsOn                  0x90f1    0x8  Code  Gb  pwm_device.o [1]
+PWM_Reset                    0x9049   0x66  Code  Gb  pwm_device.o [1]
+PWM_SetMaxChannelCurrent
+                             0x90fd   0x30  Code  Gb  pwm_device.o [1]
+PWM_SetRGBValue              0x8f21   0x82  Code  Gb  pwm_device.o [1]
+PWM_UpdateFinished           0x90e3    0xe  Code  Gb  pwm_device.o [1]
+PendSV_Handler               0x8c3d    0x8  Code  Gb  pmu_device.o [1]
+Period_OFF              0x2000'0214    0x2  Data  Gb  applicationTask.o [1]
+Period_ON               0x2000'0212    0x2  Data  Gb  applicationTask.o [1]
+Pushing_Data_From_union
+                             0xc669   0x72  Code  Gb  My_DashedLine.o [1]
+Region$$Table$$Base          0xe5f4          --   Gb  - Linker created -
+Region$$Table$$Limit         0xe614          --   Gb  - Linker created -
+RegisterDataProtocol         0x43bb    0xc  Code  Gb  linslaveTask.o [1]
+SAEJ2602CfgReqCallback  0x2000'0450    0x4  Data  Lc  LinStackTask.o [3]
+SAEJ2602DNNBroadcastReqCallback
+                        0x2000'0454    0x4  Data  Lc  LinStackTask.o [3]
+SAFM_GetBatteryState         0x87d9    0x6  Code  Gb  safetyMonitorTask.o [1]
+SAFM_GetChipTemperatureState
+                             0x87df    0x6  Code  Gb  safetyMonitorTask.o [1]
+SAFM_GetLedPNStateState
+                             0x87e5    0x8  Code  Gb  safetyMonitorTask.o [1]
+SAFM_TaskHandler             0x865d   0x4a  Code  Gb  safetyMonitorTask.o [1]
+SDIO_Handler                 0x8c4d    0x8  Code  Gb  pmu_device.o [1]
+SPI_Handler                  0xe695    0x2  Code  Gb  spi_device.o [1]
+SVC_Handler                  0x8c35    0x8  Code  Gb  pmu_device.o [1]
+SWAP_DATA               0x2000'0088    0x4  Data  Gb  linMasterTask.o [1]
+SYS_Init                     0xe3fb   0x50  Code  Gb  systemInit.o [1]
+SentGroup               0x2000'0255    0x1  Data  Lc  linMasterTask.o [1]
+SlaveLed                0x2000'0218    0x4  Data  Gb  applicationTask.o [1]
+SoftTimer_ExpireCallback
+                             0x7de5   0x2a  Code  Gb  softTimerTask.o [4]
+SoftTimer_Start              0x7d01   0x14  Code  Gb  softTimerTask.o [4]
+SoftTimer_Started            0x7d49   0x18  Code  Gb  softTimerTask.o [4]
+SoftTimer_Stop               0x7d15   0x34  Code  Gb  softTimerTask.o [4]
+SoftTimer_TaskHandler        0x7d61   0x42  Code  Gb  softTimerTask.o [4]
+SyncJudge                    0xa2b9  0x2ee  Code  Gb  linMasterTask.o [1]
+SyncLongGap             0x2000'0268    0x4  Data  Gb  linMasterTask.o [1]
+SysTick_Handler              0xe461   0x10  Code  Gb  systick_device.o [1]
+SysTick_Init                 0xe471   0x1e  Code  Gb  systick_device.o [1]
+Sys_Flag                0x2000'024d    0x1  Data  Lc  linMasterTask.o [1]
+TEMP_CURVE_TABLE_BLUE        0x3a14  0x1e8  Data  Lc  LedParamTables_HVRTB-3433EPX_HongLi_20230515.o [1]
+TEMP_CURVE_TABLE_GREEN       0x382c  0x1e8  Data  Lc  LedParamTables_HVRTB-3433EPX_HongLi_20230515.o [1]
+TEMP_CURVE_TABLE_RED         0x3644  0x1e8  Data  Lc  LedParamTables_HVRTB-3433EPX_HongLi_20230515.o [1]
+TIMER_Disable                0x7cbb   0x2c  Code  Gb  timer_device.o [1]
+TIMER_Init                   0x7c81   0x3a  Code  Gb  timer_device.o [1]
+TM_PostTask                  0x6577   0x12  Code  Gb  taskManager.o [1]
+TM_RunTasks                  0x6541   0x36  Code  Gb  taskManager.o [1]
+TM_TaskIsPending             0x6589   0x14  Code  Gb  taskManager.o [1]
+Timer0_Handler               0x7c25   0x2e  Code  Gb  timer_device.o [1]
+Timer1_Handler               0x7c53   0x2e  Code  Gb  timer_device.o [1]
+Timer2_Handler               0x4521   0x10  Code  Gb  LinStackTask.o [3]
+TimerCallback                0x9529  0x9fa  Code  Gb  linMasterTask.o [1]
+UART_Handler                 0xe501   0x4c  Code  Gb  uart_device.o [1]
+UnconditionalCmdsTable  0x2000'02ec   0x50  Data  Lc  linslaveTask.o [1]
+UnconditionalPublishedCmdsISR
+                             0x42d1   0xbc  Code  Gb  linslaveTask.o [1]
+UnconditionalPublishedCmdsTxFinishedISR
+                             0x42b1   0x1a  Code  Gb  linslaveTask.o [1]
+UnconditionalSubscribedCmdsHandle
+                             0x43ed   0x26  Code  Gb  linslaveTask.o [1]
+UnderVoltageProtection_ISR
+                             0x87c5    0xa  Code  Lc  safetyMonitorTask.o [1]
+VBAT_Handler                 0xaa17   0x46  Code  Gb  hwProtection.o [1]
+VIU_Sync                0x2000'0250    0x1  Data  Gb  linMasterTask.o [1]
+VIU_SyncInit            0x2000'0251    0x1  Data  Gb  linMasterTask.o [1]
+VIU_SyncOverflow        0x2000'0252    0x1  Data  Gb  linMasterTask.o [1]
+WDTA_Start                   0x8bdd   0x1c  Code  Lc  pmu_device.o [1]
+WULIN_Handler                0x8aad   0x28  Code  Gb  lin_device.o [1]
+WUTIMER_Handler              0x8ad5    0x2  Code  Gb  lin_device.o [1]
+WatchdogA_Handler            0xe675    0x2  Code  Gb  wdt_device.o [1]
+Watchdog_Handler             0xe665   0x10  Code  Gb  wdt_device.o [1]
+WholeLampTime           0x2000'0264    0x2  Data  Gb  linMasterTask.o [1]
+_Rand_idx               0x2000'290c    0x4  Data  Lc  rand.o [5]
+_Rand_rv                0x2000'288c   0x80  Data  Lc  rand.o [5]
+_Randinit               0x2000'04a0    0x1  Data  Gb  rand.o [5]
+_Randseed               0x2000'04a4    0x4  Data  Gb  rand.o [5]
+__aeabi_cfcmple              0xc825         Code  Gb  FltCmpLe.o [6]
+__aeabi_d2f                  0xcd15         Code  Gb  DblToFlt.o [6]
+__aeabi_d2uiz                0xcbad         Code  Gb  DblToI32.o [6]
+__aeabi_d2ulz                0xc7d1         Code  Gb  DblToI64.o [6]
+__aeabi_dadd                 0xc87f         Code  Gb  DblAddSub.o [6]
+__aeabi_ddiv                 0xc70d         Code  Gb  DblDiv.o [6]
+__aeabi_dmul                 0xca27         Code  Gb  DblMul.o [6]
+__aeabi_f2d                  0xc84d         Code  Gb  FltToDbl.o [6]
+__aeabi_f2iz                 0x9335         Code  Gb  FltToS32.o [6]
+__aeabi_fadd                 0x9165         Code  Gb  FltAddSub.o [6]
+__aeabi_fdiv                 0xcc13         Code  Gb  FltDiv.o [6]
+__aeabi_fmul                 0x9285         Code  Gb  FltMul.o [6]
+__aeabi_fsub                 0x91d5         Code  Gb  FltAddSub.o [6]
+__aeabi_i2f                  0xcbfd         Code  Gb  IxxToFlt.o [6]
+__aeabi_idiv                 0x3c29         Code  Gb  I32DivModFast.o [7]
+__aeabi_idivmod              0x3c29         Code  Gb  I32DivModFast.o [7]
+__aeabi_ldivmod              0x3f75         Code  Gb  I64DivMod.o [7]
+__aeabi_llsr                 0x3569         Code  Gb  U64Shr.o [7]
+__aeabi_lmul                 0x3605         Code  Gb  I64Mul.o [7]
+__aeabi_memclr               0x882d         Code  Gb  ABImemset.o [7]
+__aeabi_memclr4              0x8831         Code  Gb  ABImemset.o [7]
+__aeabi_memclr8              0x8831         Code  Gb  ABImemset.o [7]
+__aeabi_memcpy               0x3f19         Code  Gb  ABImemcpy.o [7]
+__aeabi_memcpy4              0x3f41         Code  Wk  ABImemcpy.o [7]
+__aeabi_memset               0x880d         Code  Gb  ABImemset.o [7]
+__aeabi_ui2d                 0xc6ed         Code  Gb  IxxToDbl.o [6]
+__aeabi_ui2f                 0xcbdd         Code  Gb  IxxToFlt.o [6]
+__aeabi_uidiv                0x3c2f         Code  Gb  I32DivModFast.o [7]
+__aeabi_uidivmod             0x3c2f         Code  Gb  I32DivModFast.o [7]
+__aeabi_uldivmod             0x3fb3         Code  Gb  I64DivMod.o [7]
+__aeabi_uread4               0x7b35         Code  Gb  uread4.o [7]
+__aeabi_uread8               0x947d         Code  Gb  uread8.o [7]
+__aeabi_uwrite4              0x8cd5         Code  Gb  uwrite4.o [7]
+__cmain                      0xe615         Code  Gb  cmain.o [7]
+__exit                       0xe659         Code  Gb  XXexit.o [7]
+__iar_Memset4_word           0x8835         Code  Gb  ABImemset.o [7]
+__iar_Memset_word            0x8819         Code  Gb  ABImemset.o [7]
+__iar_ceil64                 0xccbd         Code  Gb  ceil.o [6]
+__iar_d2uiz                  0xcbb1         Code  Gb  DblToI32.o [6]
+__iar_data_init3             0xe5cd   0x28  Code  Gb  data_init.o [7]
+__iar_lz77_init_single3
+                             0x3587   0x7e  Code  Gb  lz77_init_single.o [7]
+__iar_program_start          0xe67d   0x10  Code  Gb  cstartup_M.o [1]
+__iar_zero_init3             0xe559   0x3c  Code  Gb  zero_init3.o [7]
+__low_level_init             0xe499   0x68  Code  Gb  low_level_init.o [1]
+__vector_table               0x1c08   0xc4  Data  Lc  cstartup_M.o [1]
+_call_main                   0xe621         Code  Gb  cmain.o [7]
+_exit                        0xe64d         Code  Gb  cexit.o [7]
+_main                        0xe62f         Code  Gb  cmain.o [7]
+adcCodeUpdate                0x8191   0xd4  Code  Gb  measureTask.o [1]
+adcResult               0x2000'04ac  0xfd8  Data  Lc  measureTask.o [1]
+adcTaskState            0x2000'033c    0x1  Data  Lc  measureTask.o [1]
+addTimer                     0x7da3   0x42  Code  Lc  softTimerTask.o [4]
+add_data_to_buff             0x7e45   0x3a  Code  Gb  measureTask.o [1]
+alreadyRunNUM           0x2000'0253    0x1  Data  Lc  linMasterTask.o [1]
+alreadyframe            0x2000'0254    0x1  Data  Lc  linMasterTask.o [1]
+appNoSleepFlag          0x2000'02c8    0x1  Data  Gb  linslaveTask.o [1]
+applState               0x2000'0090    0x1  Data  Lc  applicationTask.o [1]
+b_iir_filter::state     0x2000'035a    0x1  Data  Lc  measureTask.o [1]
+b_iir_filter::total     0x2000'0364    0x4  Data  Lc  measureTask.o [1]
+barkClearCount          0x2000'29ac    0x4  Data  Lc  softTimerTask.o [4]
+battLastState           0x2000'2956    0x1  Data  Lc  safetyMonitorTask.o [1]
+battState               0x2000'2955    0x1  Data  Lc  safetyMonitorTask.o [1]
+bcmAluCtrl              0x2000'29d4    0x4  Data  Gb  linslaveTask.o [1]
+breathingFlag           0x2000'024c    0x1  Data  Lc  linMasterTask.o [1]
+bubbleSort                   0x7e7f   0x38  Code  Gb  measureTask.o [1]
+buckIsrCallback         0x2000'29f4    0x4  Data  Lc  buck_device.o [1]
+buckSettingTable             0xac60   0x74  Data  Lc  buck_device.o [1]
+busWakeUpRequestCallback
+                        0x2000'0444    0x4  Data  Lc  LinStackTask.o [3]
+busWakeupRetryCount     0x2000'2a05    0x1  Data  Lc  linslaveTask.o [1]
+ccpState                0x2000'2a04    0x1  Data  Lc  colorCompensationTask.o [1]
+ceil                         0xccbd         Code  Gb  ceil.o [6]
+ceill                        0xccbd         Code  Gb  ceil.o [6]
+changeColorIndex             0x94c5   0x60  Code  Gb  linMasterTask.o [1]
+changeMaxLight               0x3e87    0xe  Code  Gb  pdsTask.o [1]
+chipTemperatureLastState
+                        0x2000'2958    0x1  Data  Lc  safetyMonitorTask.o [1]
+chipTemperatureState    0x2000'2957    0x1  Data  Lc  safetyMonitorTask.o [1]
+colorStart                   0x5801   0xb8  Code  Gb  ColorMixingTask.o [2]
+colorTransitionTimer    0x2000'21f8  0x240  Data  Lc  ColorMixingTask.o [2]
+colorTransitionTimerExpired
+                             0x54db  0x286  Code  Gb  ColorMixingTask.o [2]
+currPWMMatchValue       0x2000'26e8   0x90  Data  Lc  pwm_device.o [1]
+currentFrame            0x2000'03f8   0x10  Data  Lc  LinStackTask.o [3]
+data                    0x2000'2974   0x10  Data  Gb  My_DashedLine.o [1]
+dataIntegrityError      0x2000'2a07    0x1  Data  Lc  measureTask.o [1]
+dataProtocol_callback   0x2000'29d8    0x4  Data  Gb  linslaveTask.o [1]
+dataReceivedACK              0x48ab   0x24  Code  Lc  LinStackTask.o [3]
+dataResponseACK              0x48cf   0x3e  Code  Lc  LinStackTask.o [3]
+delayTimer              0x2000'00cc   0x18  Data  Lc  applicationTask.o [1]
+delayTimerExpired            0x661d    0x8  Code  Gb  applicationTask.o [1]
+diagDataRecvBuff        0x2000'2668   0x80  Data  Lc  linslaveTask.o [1]
+diagDataRspBuff         0x2000'25e8   0x80  Data  Lc  linslaveTask.o [1]
+diagPDUSubscriberBuffMaxLength
+                        0x2000'042e    0x2  Data  Lc  LinStackTask.o [3]
+diagReqLogCallback      0x2000'0448    0x4  Data  Lc  LinStackTask.o [3]
+diagReqParam            0x2000'0468   0x14  Data  Lc  LinStackTask.o [3]
+diagRspParam            0x2000'29b8    0xc  Data  Lc  LinStackTask.o [3]
+diagnosticSleepRequestCallback
+                        0x2000'0440    0x4  Data  Lc  LinStackTask.o [3]
+diagnosticSubscribedCallback
+                        0x2000'043c    0x4  Data  Lc  LinStackTask.o [3]
+diagnostics_table       0x2000'0480   0x20  Data  Lc  LinStackTask.o [3]
+disAutoSleep            0x2000'047e    0x1  Data  Lc  LinStackTask.o [3]
+disBitMonitor           0x2000'047d    0x1  Data  Lc  LinStackTask.o [3]
+doColorCompensationHandle
+                             0xe1ad  0x1c2  Code  Gb  colorCompensationTask.o [1]
+eventTriggeredLedOn     0x2000'2a06    0x1  Data  Lc  linslaveTask.o [1]
+exit                         0xe643    0x8  Code  Gb  exit.o [5]
+fadingMode              0x2000'2a0a    0x1  Data  Lc  ColorMixingTask.o [2]
+frameIdLogCallback      0x2000'044c    0x4  Data  Lc  LinStackTask.o [3]
+frameTable              0x2000'29a8    0x4  Data  Lc  linsNodeCfgIdentify.o [1]
+g_iir_filter::state     0x2000'0359    0x1  Data  Lc  measureTask.o [1]
+g_iir_filter::total     0x2000'0360    0x4  Data  Lc  measureTask.o [1]
+getControlledMaxIntensity
+                             0x26e7   0xa8  Code  Gb  colorFormula.o [2]
+getCurrentColorPointRatio
+                             0x22a9  0x3a0  Code  Gb  colorFormula.o [2]
+getCurrentMaxIntensity       0x278f   0x76  Code  Gb  colorFormula.o [2]
+getCurrentXY                 0x2649   0x9e  Code  Gb  colorFormula.o [2]
+getDataBits                  0x1ccd   0x40  Code  Gb  colorFormula.o [2]
+getDeltaVolt                 0x281d   0x1e  Code  Gb  colorFormula.o [2]
+getEfficient                 0x283b   0x18  Code  Gb  colorFormula.o [2]
+getMulDataWithScale          0x1de9   0x9c  Code  Gb  colorFormula.o [2]
+getScaleRateFromINT64ToINT32
+                             0x1d0d   0x54  Code  Gb  colorFormula.o [2]
+getScaleRateFromU32ToU16
+                             0x1d61   0x20  Code  Gb  colorFormula.o [2]
+getScaleRateFromU64ToU16
+                             0x1d81   0x3a  Code  Gb  colorFormula.o [2]
+getScaledData                0x1dbb   0x2e  Code  Gb  colorFormula.o [2]
+getTypicalCoordinate         0x2853   0x5e  Code  Gb  colorFormula.o [2]
+get_chip_temperature         0x7f2b   0x22  Code  Gb  measureTask.o [1]
+get_led_temperature          0x7f85   0x44  Code  Gb  measureTask.o [1]
+get_led_volt                 0x7eb7   0x74  Code  Gb  measureTask.o [1]
+globalTimerIrqCount     0x2000'29b0    0x4  Data  Lc  softTimerTask.o [4]
+gotValidLinCommand      0x2000'0424    0x1  Data  Lc  LinStackTask.o [3]
+gpioCallback            0x2000'2910   0x24  Data  Lc  gpio_device.o [1]
+gpios_init                   0xe379   0x3c  Code  Gb  systemInit.o [1]
+handleDiagRequest            0x4537  0x1e2  Code  Lc  LinStackTask.o [3]
+hwGpTimer               0x2000'03d8   0x20  Data  Lc  timer_device.o [1]
+initialNad              0x2000'047c    0x1  Data  Lc  LinStackTask.o [3]
+isSnpdMode              0x2000'29a0    0x1  Data  Lc  linsNodeCfgIdentify.o [1]
+j2602_CfgResponse       0x2000'0420    0x1  Data  Lc  LinStackTask.o [3]
+l_sys_init                   0x4e7f   0x12  Code  Gb  LinStackTask.o [3]
+lastXY                  0x2000'29ec    0x4  Data  Lc  colorFormula.o [2]
+ledConvertType          0x2000'0368    0x1  Data  Lc  pwm_device.o [1]
+ledCtrl                 0x2000'1484  0x5a0  Data  Lc  ColorMixingTask.o [2]
+ledIsActive             0x2000'036c   0x18  Data  Lc  pwm_device.o [1]
+ledNo                   0x2000'04aa    0x1  Data  Lc  colorCompensationTask.o [1]
+ledPNState              0x2000'295c   0x18  Data  Lc  safetyMonitorTask.o [1]
+linIdleTimeout          0x2000'0423    0x1  Data  Lc  LinStackTask.o [3]
+linParams               0x2000'29a4    0x4  Data  Lc  linsNodeCfgIdentify.o [1]
+linProtocol             0x2000'041e    0x1  Data  Lc  LinStackTask.o [3]
+linSSendTimer           0x2000'02d4   0x18  Data  Gb  linslaveTask.o [1]
+linSSendTimerExpired         0x4469   0x3c  Code  Gb  linslaveTask.o [1]
+linSSendTimerExpired::i
+                        0x2000'02c9    0x1  Data  Lc  linslaveTask.o [1]
+linSWakeUpExpired            0xe3b5   0x46  Code  Gb  systemInit.o [1]
+linSWakeUpExpired::i    0x2000'0390    0x1  Data  Lc  systemInit.o [1]
+linSWakeUpTimer         0x2000'0394   0x18  Data  Gb  systemInit.o [1]
+linStackNad             0x2000'0427    0x1  Data  Lc  LinStackTask.o [3]
+linStackState           0x2000'0408    0x1  Data  Lc  LinStackTask.o [3]
+lin_Stack_ISR                0x4935  0x4d8  Code  Lc  LinStackTask.o [3]
+lin_Stack_ISR::command  0x2000'042b    0x1  Data  Lc  LinStackTask.o [3]
+lin_Stack_ISR::index    0x2000'042a    0x1  Data  Lc  LinStackTask.o [3]
+lin_Stack_ISR::lastValidcommand
+                        0x2000'042c    0x1  Data  Lc  LinStackTask.o [3]
+lin_Stack_ISR::txCommand
+                        0x2000'0429    0x1  Data  Lc  LinStackTask.o [3]
+lin_Stack_wakeup_ISR         0x490d    0xc  Code  Lc  LinStackTask.o [3]
+lin_error_code          0x2000'0422    0x1  Data  Lc  LinStackTask.o [3]
+lin_stack_callback      0x2000'29cc    0x4  Data  Lc  lin_device.o [1]
+lin_status              0x2000'0464    0x2  Data  Lc  LinStackTask.o [3]
+lin_wakeup_callback     0x2000'29d0    0x4  Data  Lc  lin_device.o [1]
+linmFrame               0x2000'298c   0x10  Data  Lc  lin_device.o [1]
+linmSendTimer           0x2000'0288   0x18  Data  Gb  linMasterTask.o [1]
+linmSendTimerExpired         0x9f7d    0x2  Code  Gb  linMasterTask.o [1]
+linmTaskState           0x2000'0284    0x1  Data  Gb  linMasterTask.o [1]
+linm_callback           0x2000'299c    0x4  Data  Lc  lin_device.o [1]
+linm_cmd_table          0x2000'0040   0x30  Data  Gb  linMasterTask.o [1]
+linsFramesCallback      0x2000'02a4   0x24  Data  Lc  linslaveTask.o [1]
+linsTaskState           0x2000'02a0    0x1  Data  Lc  linslaveTask.o [1]
+linsValidErrors         0x2000'041f    0x1  Data  Lc  LinStackTask.o [3]
+lnci_handle_custom_request
+                             0x7b4d   0xd8  Code  Gb  custom_proto.o [1]
+ls_clr_error_code_log        0x4ec5    0x8  Code  Gb  LinStackTask.o [3]
+ls_clr_go_to_sleep_flag
+                             0x4ed5    0xa  Code  Gb  LinStackTask.o [3]
+ls_clr_overrun_flag          0x4ee5    0x8  Code  Gb  LinStackTask.o [3]
+ls_disable_lin_auto_sleep
+                             0x4f3d   0x10  Code  Gb  LinStackTask.o [3]
+ls_get_lin_version           0x5059   0x16  Code  Gb  LinStackTask.o [3]
+ls_handle_diagnostic_response
+                             0x4729   0xbc  Code  Gb  LinStackTask.o [3]
+ls_ifc_clear_error_status
+                             0x4e9b   0x16  Code  Gb  LinStackTask.o [3]
+ls_ifc_read_status           0x4e91    0xa  Code  Gb  LinStackTask.o [3]
+ls_read_error_code_log       0x4eb1   0x14  Code  Gb  LinStackTask.o [3]
+ls_read_nad                  0x4e79    0x6  Code  Gb  LinStackTask.o [3]
+ls_read_nad_from_master
+                             0x4531    0x6  Code  Gb  LinStackTask.o [3]
+ls_register_services         0x4e0d   0x52  Code  Gb  LinStackTask.o [3]
+ls_save_configuration        0x4efd    0xe  Code  Gb  LinStackTask.o [3]
+ls_set_initialNad            0x4e5f    0x6  Code  Gb  LinStackTask.o [3]
+ls_set_linm_rx_glitch_filter_1st
+                             0x4fd1   0x2a  Code  Gb  LinStackTask.o [3]
+ls_set_linm_rx_glitch_filter_2nd
+                             0x5001   0x2a  Code  Gb  LinStackTask.o [3]
+ls_set_linm_rx_glitch_filter_3rd
+                             0x502b   0x2a  Code  Gb  LinStackTask.o [3]
+ls_set_lins_rx_glitch_filter_1st
+                             0x4f4d   0x2a  Code  Gb  LinStackTask.o [3]
+ls_set_lins_rx_glitch_filter_2nd
+                             0x4f77   0x2a  Code  Gb  LinStackTask.o [3]
+ls_set_lins_rx_glitch_filter_3rd
+                             0x4fa1   0x2a  Code  Gb  LinStackTask.o [3]
+ls_set_nad                   0x4e65   0x14  Code  Gb  LinStackTask.o [3]
+ls_set_tp_timeout            0x4f0b   0x24  Code  Gb  LinStackTask.o [3]
+ls_set_tx_bit_monitor        0x4f2f    0xe  Code  Gb  LinStackTask.o [3]
+main                         0xe633   0x10  Code  Gb  main.o [1]
+maxLimitedIntensity     0x2000'04a8    0x2  Data  Lc  ColorMixingTask.o [2]
+measureParamInit             0x82c5  0x168  Code  Gb  measureTask.o [1]
+mode1Color1             0x2000'0260    0x2  Data  Lc  linMasterTask.o [1]
+mode1brightness         0x2000'025e    0x2  Data  Lc  linMasterTask.o [1]
+multiColorTransitionCount
+                        0x2000'0257    0x1  Data  Lc  linMasterTask.o [1]
+nweNode_Mode            0x2000'024e    0x1  Data  Lc  linMasterTask.o [1]
+otCallback              0x2000'29f8    0x4  Data  Lc  hwProtection.o [1]
+ovCallback              0x2000'29c8    0x4  Data  Lc  hwProtection.o [1]
+pdsState                0x2000'2a08    0x1  Data  Lc  pdsTask.o [1]
+pdsStatus               0x2000'2a09    0x1  Data  Lc  pdsTask.o [1]
+pds_store                    0x3def   0x7e  Code  Gb  pdsTask.o [1]
+publisherTxFinishedCallback
+                        0x2000'0438    0x4  Data  Lc  LinStackTask.o [3]
+pwmAuxReloadCallback    0x2000'29dc    0x8  Data  Lc  pwmAux_device.o [1]
+r_iir_filter::state     0x2000'0358    0x1  Data  Lc  measureTask.o [1]
+r_iir_filter::total     0x2000'035c    0x4  Data  Lc  measureTask.o [1]
+rand                         0x9371   0xec  Code  Gb  rand.o [5]
+rgb2xyyTable                 0xd580  0xc0c  Data  Lc  applicationTask.o [1]
+running_times1          0x2000'025a    0x2  Data  Lc  linMasterTask.o [1]
+running_times2          0x2000'025c    0x2  Data  Lc  linMasterTask.o [1]
+rxBuff                  0x2000'280c   0x80  Data  Lc  uart_device.o [1]
+rxBuffCount             0x2000'2808    0x1  Data  Lc  uart_device.o [1]
+safeMonitorState        0x2000'2954    0x1  Data  Lc  safetyMonitorTask.o [1]
+safetyHandle                 0x86a7  0x11e  Code  Lc  safetyMonitorTask.o [1]
+sendParameterinit            0x94b5   0x10  Code  Gb  linMasterTask.o [1]
+sendSlaveFrame1         0x2000'0070    0x8  Data  Gb  linMasterTask.o [1]
+sendSlaveFrame2         0x2000'0078    0x8  Data  Gb  linMasterTask.o [1]
+sendSlaveFrame3         0x2000'0080    0x8  Data  Gb  linMasterTask.o [1]
+send_EN                 0x2000'0256    0x1  Data  Lc  linMasterTask.o [1]
+send_Parameter          0x2000'023c   0x10  Data  Gb  linMasterTask.o [1]
+setPwmValue                  0x579b   0x18  Code  Gb  ColorMixingTask.o [2]
+setRunParameter              0xa645  0x1cc  Code  Gb  linMasterTask.o [1]
+set_empty                    0xc425   0x66  Code  Gb  My_DashedLine.o [1]
+simplerunning                0xad55  0x2ac  Code  Gb  My_simplerunning.o [1]
+sleepdata               0x2000'02cc    0x8  Data  Gb  linslaveTask.o [1]
+sort_buff               0x2000'2934   0x20  Data  Gb  measureTask.o [1]
+srand                        0x945d    0xa  Code  Gb  rand.o [5]
+sysTickCallback         0x2000'29fc    0x4  Data  Lc  systick_device.o [1]
+systemClock             0x2000'0238    0x4  Data  Lc  clock_device.o [1]
+systemParam             0x2000'1f44  0x2b4  Data  Gb  pdsTask.o [1]
+targetColor             0x2000'1a24  0x120  Data  Lc  ColorMixingTask.o [2]
+taskFlags               0x2000'03ac    0x2  Data  Lc  taskManager.o [1]
+taskHandlers            0x2000'03b0   0x28  Data  Lc  taskManager.o [1]
+tasksMask               0x2000'03ae    0x2  Data  Lc  taskManager.o [1]
+tempFrame               0x2000'040c   0x10  Data  Lc  LinStackTask.o [3]
+temperature             0x2000'008c    0x4  Data  Gb  applicationTask.o [1]
+timer_tick              0x2000'0274    0x4  Data  Lc  linMasterTask.o [1]
+timers                  0x2000'29b4    0x4  Data  Lc  softTimerTask.o [4]
+txStatus                0x2000'0428    0x1  Data  Lc  LinStackTask.o [3]
+u16Movement_even_side        0xbfc5   0x66  Code  Gb  My_DashedLine.o [1]
+u16Movement_odd_side         0xbf5d   0x68  Code  Gb  My_DashedLine.o [1]
+u16Swimming_even_side        0xb96f   0x92  Code  Gb  My_DashedLine.o [1]
+u16Swimming_odd_side         0xb905   0x6a  Code  Gb  My_DashedLine.o [1]
+uartAddress             0x2000'29e4    0x1  Data  Lc  uart_device.o [1]
+uartRxDataCallback      0x2000'29e8    0x4  Data  Lc  uart_device.o [1]
+unconditionalRecvCallback
+                        0x2000'0430    0x4  Data  Lc  LinStackTask.o [3]
+unconditionalRspCallback
+                        0x2000'0434    0x4  Data  Lc  LinStackTask.o [3]
+unconditionalTable      0x2000'0458    0x4  Data  Lc  LinStackTask.o [3]
+unconditionalTableCount
+                        0x2000'0421    0x1  Data  Lc  LinStackTask.o [3]
+updateItems             0x2000'033d    0x1  Data  Lc  measureTask.o [1]
+updateLedsTemperature        0x7fc9  0x1be  Code  Gb  measureTask.o [1]
+updateLedsTemperature::ledIndex
+                        0x2000'035b    0x1  Data  Lc  measureTask.o [1]
+updateSystemInfo             0x7f4d   0x2e  Code  Gb  measureTask.o [1]
+updateTimer             0x2000'0340   0x18  Data  Lc  measureTask.o [1]
+updateTimerExpired           0x7e1d   0x28  Code  Gb  measureTask.o [1]
+updateTimerExpired::measWaitCount
+                        0x2000'033e    0x1  Data  Lc  measureTask.o [1]
+uvCallback              0x2000'29c4    0x4  Data  Lc  hwProtection.o [1]
+vBattCode               0x2000'0386    0x2  Data  Lc  pwm_device.o [1]
+vBuckCode               0x2000'0384    0x2  Data  Lc  pwm_device.o [1]
+vLedPNCode              0x2000'2778   0x90  Data  Lc  pwm_device.o [1]
+vTempCode               0x2000'0388    0x2  Data  Lc  pwm_device.o [1]
+wakeupReqCount          0x2000'0425    0x1  Data  Lc  LinStackTask.o [3]
+wakeupReqState          0x2000'0426    0x1  Data  Lc  LinStackTask.o [3]
+wdt1Callback            0x2000'2a00    0x4  Data  Lc  wdt_device.o [1]
+xy_shift                     0xcd78  0x808  Data  Lc  applicationTask.o [1]
+
+
+[1] = E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Obj
+[2] = ColorMixingTask_RugbyProMatrixLeds.a
+[3] = LinStackTask_RugbyProMatrixLeds.a
+[4] = SoftTimerTask_RugbyProMatrixLeds.a
+[5] = dl6M_tln.a
+[6] = m6M_tl.a
+[7] = rt6M_tl.a
+
+  46 476 bytes of readonly  code memory
+   5 635 bytes of readonly  data memory
+  12 747 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,13 @@
+"D:\IAR\arm\bin\armproc.dll" 
+
+"D:\IAR\arm\bin\armjlink2.dll" 
+
+"E:\YZFiles\YZProject\CD701\CD701V005\CD701_IP\CD701_IP1_IP6_IP7_83212_V005\Release\Exe\realplumPro_app.out" 
+
+--plugin="D:\IAR\arm\bin\armbat.dll" 
+
+--flash_loader="D:\IAR\arm\config\flashloader\IndieSemi\FlashLoader_realplumLite.board" 
+
+
+
+

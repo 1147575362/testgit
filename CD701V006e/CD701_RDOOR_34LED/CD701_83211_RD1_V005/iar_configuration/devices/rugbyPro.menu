@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<optionMenuItem>
+  <tag>rugbyPro</tag>
+  <display>IndieSemi rugbyPro</display>
+  <data>$CUR_DIR$\rugbyPro.i79</data>
+</optionMenuItem>

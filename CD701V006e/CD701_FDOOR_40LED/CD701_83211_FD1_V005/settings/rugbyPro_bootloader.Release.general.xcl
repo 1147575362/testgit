@@ -1,0 +1,13 @@
+"D:\IAR\arm\bin\armproc.dll" 
+
+"D:\IAR\arm\bin\armjlink2.dll" 
+
+"E:\YZFiles\YZProject\CD701\CD701V006e\CD701_FDOOR_40LED\CD701_83211_FD1_V005\Release\Exe\meizi_bootloader.out" 
+
+--plugin="D:\IAR\arm\bin\armbat.dll" 
+
+--flash_loader="D:\IAR\arm\config\flashloader\IndieSemi\FlashLoader_rugbyPro.board" 
+
+
+
+
